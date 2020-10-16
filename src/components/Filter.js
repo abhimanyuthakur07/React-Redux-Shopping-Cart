@@ -15,13 +15,14 @@ export default class Filter extends Component {
                 </div>
                 <div className="filter-size">
                     Filter{""}
-                <select value={this.props.size}  onChange={(e) =>this.props.filterProducts(e)}>
-                    <option value="">ALL</option>
-                    <option value="S">S</option>
-                    <option value="M">M</option>
-                    <option value="L">L</option>
-                    <option value="XL">XL</option>
-                    <option value="XXL">XXL</option>
+                <select value={this.props.size}  onChange={(e) => this.props.filterProducts(e)}>
+                <option value="">ALL</option>
+                <option value="XS">XS</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+                <option value="XXL">XXL</option>
                 </select>
                 </div>
             </div>
